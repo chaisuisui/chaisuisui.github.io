@@ -23,6 +23,7 @@ HTML--超文本标记语言
 ## 标签的关系
 
 ### 并列关系
+<img width="934" height="282" alt="image" src="https://github.com/user-attachments/assets/f57ce350-293c-471b-afa6-806b3600dafc" />
 
 （兄弟关系）![1772801745746](HTML.assets/1772801745746.png)
 
@@ -231,7 +232,7 @@ poster 视频未加载完成，填写图片来源![1772810132206](HTML.assets/17
 
 ## 网站结构标签
 
-![1772893546802]( HTML.assets\1772893546802.png)
+![1772893546802]( HTML.assets/1772893546802.png)
 
 ## 无语义标签
 
