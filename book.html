@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        width: 240px;
+        height: 280px;
+        margin: 50px;
+    }
+    
+    .box div {
+        position: absolute;
+        width: 240px;
+        height: 280px;
+        border-radius: 0 30px 40px 40px;
+    }
+    
+    .front {
+        position: absolute;
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.4);
+        /* transition: all 0.5s; */
+        backdrop-filter: blur(30px);
+    }
+    
+    .back {
+        position: absolute;
+        background-color: purple;
+        transform: skewY(10deg);
+        transform-origin: top left;
+        transition: all 0.5s;
+    }
+    
+    .box:hover .back {
+        transform: skewY(20deg);
+        width: 200px;
+    }
+    
+    .box:hover .front {
+        transform: skewY(3deg);
+    }
+</style>
+
+<body>
+    <div class="box">
+        <div class="front"></div>
+        <div class="back"></div>
+    </div>
+</body>
+
+</html>

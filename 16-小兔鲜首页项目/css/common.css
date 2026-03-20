@@ -1,0 +1,276 @@
+.w {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.shortcut {
+    height: 52px;
+    background: #333333;
+}
+
+.shortcut ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 52px;
+    font-size: 14px;
+}
+
+.shortcut ul li a {
+    color: #FFFFFF;
+}
+
+.shortcut ul li i {
+    font-size: 16px;
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.shortcut ul .phone:hover i {
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+
+/* .shortcut ul .phone i:hover {
+    transform: rotate(180deg);
+    transition: all 0.5s;
+} */
+
+.shortcut ul .line {
+    background: #999999;
+    width: 1px;
+    height: 12px;
+    margin: 0 15px;
+}
+
+.shortcut i {
+    width: 16px;
+    height: 16px;
+}
+
+.shortcut ul li:first-child a {
+    color: #5EB69C;
+}
+
+.shortcut ul li:hover a {
+    color: #5EB69C;
+}
+
+
+/* LOGO 1.有链接2.有title */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: pink; */
+    height: 132px;
+}
+
+.header .logo {
+    width: 200px;
+    height: 88px;
+}
+
+.header .logo h1 {
+    width: 100%;
+    height: 100%;
+}
+
+.header .logo h1 a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-indent: -9999px;
+    background: url(../images/logo.png) no-repeat;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    gap: 48px;
+}
+
+.nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav li a:hover {
+    /* color: #5EB69C; */
+    border-bottom: 2px solid #5EB69C;
+}
+
+.search {
+    position: relative;
+}
+
+.search i {
+    position: absolute;
+    font-size: 18px;
+    color: #ccc;
+    top: 10px;
+    left: 6px;
+}
+
+.search input {
+    /* background: #F4F4F4; */
+    font-size: 16px;
+    border: 2px solid #F4F4F4;
+    width: 170px;
+    height: 40px;
+    padding-left: 28px;
+}
+
+.search input::placeholder {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.car i {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.car {
+    position: relative;
+}
+
+.car span {
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    padding: 2px 5px;
+    background: orangered;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer {
+    height: 580px;
+    background: #F5F5F5
+}
+
+.slogan {
+    height: 178px;
+    border-bottom: 1px solid #e8e8e8;
+    /* display: flex; */
+}
+
+.slogan ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 178px;
+    align-items: center;
+}
+
+.slogan ul li {
+    display: flex;
+    align-items: center;
+}
+
+.slogan ul li p {
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.slogan ul li h5 {
+    background: url(../images/sprite.png) no-repeat;
+    height: 58px;
+    width: 58px;
+}
+
+.slogan ul li .two {
+    background-position: 0 -58px;
+}
+
+.slogan ul li .three {
+    background-position: 0 -116px;
+}
+
+.slogan ul li .four {
+    background-position: 0 -174px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.service .service-left {
+    display: flex;
+}
+
+.service .service-left {
+    gap: 84px;
+}
+
+.service-left dl {
+    display: flex;
+    flex-direction: column;
+    /* width: 72px;
+    height: 142px; */
+}
+
+.service-left dl a {
+    font-size: 16px;
+    color: #969696;
+}
+
+.service dl dd {
+    margin-bottom: 10.5px;
+}
+
+.service-left dt {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.service dl dd i {
+    color: #5EB69C;
+}
+
+.service-right ul {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+.service-right img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.service-right ul li {
+    margin-left: 35px;
+    color: #969696;
+}
+
+.service-right ul li p {
+    margin-top: 10px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 30px;
+    color: #A1A1A1;
+}
+
+.copyright a {
+    color: #A1A1A1;
+}
+
+
+/* 给文字省略写一个专属类名，用的时候直接调用 */
+
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
